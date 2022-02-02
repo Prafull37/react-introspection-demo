@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+input{
+  width:50%;
+  padding:16px;
+  margin:16px 0;
+  border :2px solid black;
+  border-radius: 4px;
+}
+
+.submit{
+  padding :16px;
+  border:2px solid black;
+  background-color: white;
+  border-radius: 25px;
+  width:30%;
+  max-width:300px;
+  cursor: pointer;
+}
+
+.toastContainer{
+    color: white;
+    background-color: red;
+    padding: 16px;
+    border-radius: 4px;
+    max-width:60%;
+    min-width:30%;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 2px 5px rgb(206, 201, 201);
+    z-index:2;
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    text-align: justify;
+}
+
+.toastContainer > span{
+  margin: 0 8px;
+}
+
+.cardContainer{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0 auto ;
+  
+    flex-direction: column;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 12px;
+    box-shadow: 1px 3px 6px 3px rgb(0 0 0 / 30%);
+    width:60%;
+}
